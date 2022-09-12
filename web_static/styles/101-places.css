@@ -22,6 +22,7 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
+    gap: 20px;
 }
 
 .places div article .home_title {
@@ -48,12 +49,12 @@
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
     margin: 0 auto;
+    display: flex;
 }
 
 .places div article .information .max_guest,
 .places div article .information .number_rooms,
 .places div article .information .number_bathrooms {
-    display: inline-block;
     width: 100px;
     background-repeat: no-repeat;
     background-position: top center;
@@ -71,15 +72,6 @@
 
 .places div article .information .number_bathrooms {
     background-image: url("../images/icon_bath.png");
-}
-
-.places div article .user {
-    margin: 10px 0;
-}
-
-.places div article .amenities,
-.places div article .reviews {
-    margin-top: 40px;
 }
 
 .places div article .amenities h2,
